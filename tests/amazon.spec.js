@@ -11,7 +11,7 @@ test('Amazon POM Add to Cart Test', async ({ page }) => {
 
   // Step 1: Open Amazon
   await home.openAmazon();
-
+  
   // Step 2: Search product
   await home.searchProduct('laptop');
 
